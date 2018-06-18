@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Great Restaurants Around Central Park</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	    <h1>neighbourhoodMap</h1> 
+		<div class="search" id="search">
+			<div class = "item" data-bind = "click: clickItem"></div>
+			<input class="search-box" id="search-box" placeholder = "Search option" data-bind="textInput: searchTerm, valueUpdate: 'afterkeydown'" />
+		</div><br>
+		<div class="jashu" id="jashu">
+			<div class="lists" id="lists">
+				<ul class="results" id="results" data-bind="foreach: filteredList">
+					<li class="place" id="place" data-bind="text: name, click: bounce"></li>
+				</ul>
+			</div>
+		
+		    <div class="map" id="map">If you can read this, there has been an error loading Google Maps. Please Try Again.</div>
+		</div>
+		
+    
+
+
+	<script src='js/knockout-3.4.0.js'></script>
+	<script src='js/jquery-1.12.0.min.js'></script>
+	<script asnyc defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxvlUJa8lIo1GIldft5bAwrxFXLJZq70M&callback=startApp&libraries=places" onerror="errorHandling()"></script>
+	<script src='js/main.js'></script>
+</body>
+</html>
