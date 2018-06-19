@@ -59,7 +59,7 @@ h1{
 
 
 
-@media only screen and (max-device-width : 959px), only screen and (max-width : 959px)  {
+@media only screen and (max-device-width : 100px), only screen and (max-width : 100px)  {
 
 .jashu {
 	flex-direction: column;
