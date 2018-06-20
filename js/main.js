@@ -2,44 +2,29 @@
 
 var myLocations = [
 	{
-		name: 'Planet Goa Beach Resort',
-		lat: 15.4616158,
-		long: 73.7916639
+		name: 'Jama Masjid',
+		lat: 28.6270547,
+		long: 77.214438
 	},
 	{
-		name: 'Marbela Beach Resort',
-		lat: 15.3437144,
-		long: 73.4517583
+		name: 'Red Fort',
+		lat: 28.653628,
+		long: 77.2341933
 	},
 	{
-		name: 'Calangute Beach',
-		lat: 15.5371699,
-		long: 73.7525658
+		name: 'Raj Ghat',
+		lat: 28.6485894,
+		long: 77.2364359
 	},
 	{
-		name: 'Osho Beach',
-		lat: 15.5371699,
-		long: 73.7525658
+		name: 'India Gate',
+		lat: 28.612912,
+		long: 77.227321
 	},
 	{
-		name: 'Baga Beach',
-		lat: 15.5567185,
-		long: 73.7463912
-	},
-	{
-		name: 'Mhadei Wildlife Sanctuary',
-		lat: 15.3465132,
-		long: 73.4517856
-	},
-	{
-		name: 'Querim Beach',
-		lat: 15.3623228,
-		long: 73.5781172
-	},
-	{
-		name: 'Anjuna Beach',
-		lat: 15.3623228,
-		long: 73.5781172
+		name: 'Chandni Chowk',
+		lat: 28.65138,
+		long: 77.2141584,
 	}
 
 ];
@@ -168,8 +153,8 @@ function AppViewModel() {
 	this.locationList = ko.observableArray([]);
 
 	map = new google.maps.Map(document.getElementById('map'), {
-			zoom: 7,
-			center: {lat: 15.3465132, lng: 74.4517856}
+			zoom: 5,
+			center: {lat: 28.5276778, lng: 77.0688991}
 
 	});
 	var bounds = new google.maps.LatLngBounds();
