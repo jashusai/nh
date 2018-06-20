@@ -4,20 +4,22 @@ body {
 }
 h1{
    background-color:#ff8c1a;
-   border:2px solid black;
+   border:1px solid black;
    text-align:center;
+   top:30px;
    }
 
+
 .search {
-	width: 15%;
+	width: 31.5%;
 	display: flex;
 }
 
 .search-box {
 	flex-grow: 1;
-	height: 50px;
+	height: 10px;
 	font-size: 1.5em;
-	padding: 5px 15px;
+	padding: 5px 20px;
 }
 
 .jashu {
@@ -37,7 +39,7 @@ h1{
 	flex-grow: 4;
 	background-color: #fff;
 	text-align: center;
-	height: 1000px;
+	height: 600px;
 }
 
 .place {
@@ -47,10 +49,6 @@ h1{
     background-color: #85adad;
 }
 
-.place:hover{
-	cursor: pointer;
-	background-color:  #00ff00;
-}
 
 .item {
 	width:0%;
@@ -93,9 +91,9 @@ h1{
 }
 
 .slide-down{
-	height: 450px;
+	height: auto;
 	position: fixed;
-	top: 64px;
+	top: 50px;
 	width: 100%;
 	z-index: 1;
 }
