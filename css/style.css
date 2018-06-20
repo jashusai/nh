@@ -2,13 +2,13 @@ body {
 	margin: 0;
 	font-family: Verdana, Geneva, sans-serif;
 }
-h1{
-   background-color:#ff8c1a;
-   border:1px solid black;
-   text-align:center;
-   top:30px;
-   }
 
+h1 {
+   background-color: #ff8c1a;
+   border: 1px solid black;
+   text-align: center;
+   top: 30px;
+}
 
 .search {
 	width: 31.5%;
